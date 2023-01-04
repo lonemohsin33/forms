@@ -1,17 +1,19 @@
 
+// import { useState } from 'react';
 import './App.css';
 import Alert from './components/Alert';
-import Form from './components/Form';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import FormInput from './components/FormInput';
+
+
+
+
 
 function App() {
+
   return (
     <>
-      <Form />
-    
-
-      
+      <FormInput />
+      <Alert />
     </>
   );
 }
